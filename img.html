@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>close button</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="box-list">
+            <div v-for="(box, index) in boxes" class="box1">
+                {{ box.name }}
+                <a href="#" v-on:click="closeBox1(index)">x</a>
+            </div>
+        </div>
+        <script src="./js/javascript.js"></script>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    background-color: gray; 
+}
+.box1 {
+    position: relative;
+    background-color: green; 
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float:left;
+    border: 3px black solid;
+}
+.box1 a {
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+    color: #fff;
+    background-color:#f00;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.box1 a:hover {
+    text-decoration: none;
+}
+/* * {
+    margin: 0px;
+    padding: 0px;
+}
+fieldset {
+    border-bottom: 1px gray solid;
+    background-color:#F0F0F6; 
+}
+html, body {
+    height: 100%;
+}
+a:hover {
+    color: #4078C0;
+}
+#wrap {
+    position: relative;
+    min-height: 100%;
+}
+.sidebar {
+    width: 310px;
+    float: right;
+    min-height:200px; 
+    overflow: hidden;
+}
+*/
